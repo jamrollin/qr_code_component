@@ -14,8 +14,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
@@ -59,7 +57,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
     text-align: center;
 }
 ```
-- <span> element is an inline element so it won't respect vertical paddings or margins. In this project it's used as a container to line of texts for styling. For it to apply padding and margin property, it needs to be set as display: block. Used display: block instead of inline-block so the the text elements inside the span element are stacked on top of each other.
+- span element is an inline element so it won't respect vertical paddings or margins. In this project it's used as a container to line of texts for styling. For it to apply padding and margin property, it needs to be set as display: block. Used display: block instead of inline-block so the the text elements inside the span element are stacked on top of each other.
 
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
@@ -69,6 +67,7 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 - Importing font
 - Using @font-face property
 - Building responsive layouts
+- Creating README.md files
 
 ### Useful resources
 
