@@ -58,7 +58,14 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 }
 ```
 - span element is an inline element so it won't respect vertical paddings or margins. In this project it's used as a container to line of texts for styling. For it to apply padding and margin property, it needs to be set as display: block. Used display: block instead of inline-block so the the text elements inside the span element are stacked on top of each other.
-
+- @font-face syntax; 
+```css
+@font-face {
+    font-family: 'Outfit';
+    font-weight: 400 700;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/outfit/v11/QGYvz_MVcBeNP4NJtEtq.woff2') format('woff2'); 
+}```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
