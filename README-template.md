@@ -41,7 +41,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 
 ### What I learned
-- text-align property applies to block containers. While, it doesn't apply directly to img element, putting it inside a block container such as div will center it. 
+#### text-align selector 
+  - applies to block containers. While, it doesn't apply directly to img element, putting it inside a block container such as div will center it. 
 
 ```html
  <div class="card">
@@ -57,26 +58,36 @@ Then crop/optimize/edit your image however you like, add it to your project, and
     text-align: center;
 }
 ```
-- span element is an inline element so it won't respect vertical paddings or margins. In this project it's used as a container to line of texts for styling. For it to apply padding and margin property, it needs to be set as display: block. Used display: block instead of inline-block so the the text elements inside the span element are stacked on top of each other.
-- @font-face syntax; 
+#### span element
+  - is an inline element so it won't respect vertical paddings or margins. In this project it's used as a container to line of texts for styling. For it to apply padding and margin property, it needs to be set as display: block. Used display: block instead of inline-block so the the text elements inside the span element are stacked on top of each other.
+
+#### @font-face at-rule
+  - to use custom font; can be loaded from a remote server or locally.
+- It accepts property font-family for custom name. 
+- font-weight property declares the range for text thickness. 
+- font-display: swap > The swap period happens immediately after the block period, and during the swap period, fallback fonts are used until the custom font is loaded and swapped in.
+- Use WOFF2 format as it is the newest and widely supported by browsers.
 ```css
 @font-face {
     font-family: 'Outfit';
     font-weight: 400 700;
     font-display: swap;
     src: url('https://fonts.gstatic.com/s/outfit/v11/QGYvz_MVcBeNP4NJtEtq.woff2') format('woff2'); 
-}```
+}
+```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ### Continued development
 
-- Importing font
-- Using @font-face property
-- Building responsive layouts
-- Creating README.md files
+- [x] Using @font-face property
+- Creating README.md document
+- Hosting websites
 
 ### Useful resources
+
+- [@font-face best practices](https://web.dev/articles/font-best-practices), 
+- (https://savvy.co.il/en/blog/wordpress-speed/how-to-use-font-display-css/)
 
 ## Author
 
