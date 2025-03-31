@@ -41,7 +41,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 
 ### What I learned
-#### text-align selector 
+#### text-align property 
   - applies to block containers. While, it doesn't apply directly to img element, putting it inside a block container such as div will center it. 
 
 ```html
@@ -86,7 +86,7 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Useful resources
 
-- [@font-face best practices](https://web.dev/articles/font-best-practices), 
+- [font best practices](https://web.dev/articles/font-best-practices), 
 - (https://savvy.co.il/en/blog/wordpress-speed/how-to-use-font-display-css/)
 
 ## Author
