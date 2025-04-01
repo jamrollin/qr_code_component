@@ -22,8 +22,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/jamrollin/qr_code_component](https://github.com/jamrollin/qr_code_component)
+- Live Site URL: [https://jamrollin.github.io/qr_code_component/](https://jamrollin.github.io/qr_code_component/)
 
 ## My process
 
@@ -78,8 +78,8 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Useful resources
 
-- [font best practices](https://web.dev/articles/font-best-practices), 
-- [font-display] (https://savvy.co.il/en/blog/wordpress-speed/how-to-use-font-display-css/)
+- [font best practices](https://web.dev/articles/font-best-practices)
+- [font-display](https://savvy.co.il/en/blog/wordpress-speed/how-to-use-font-display-css)
 
 ## Author
 
